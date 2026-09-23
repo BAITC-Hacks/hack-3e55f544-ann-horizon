@@ -1,0 +1,19 @@
+services:
+  procureline:
+    build:
+      context: .
+      args:
+        INSTALL_AI: ${INSTALL_AI:-0}
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      PROCUREMENT_DB_PATH: /app/runtime/procurement.db
+      CONTRACTOR_CATALOG_PATH: /app/data/hackathon-dataset-anonymized.csv
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      PROCUREMENT_MODEL: ${PROCUREMENT_MODEL:-}
+      PROCUREMENT_LLM_INTAKE: ${PROCUREMENT_LLM_INTAKE:-0}
+      PROCUREMENT_AGENT_REVIEW: ${PROCUREMENT_AGENT_REVIEW:-0}
+    volumes:
+      - procurement-data:/app/runtime
+volumes:
+  procurement-data:

@@ -1,0 +1,26 @@
+.personal-extended-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; align-items: start; }
+.personal-panel { padding: 24px; margin-bottom: 22px; min-width: 0; }
+.personal-panel h2 { font-size: 18px; margin: 0 0 12px; }
+.personal-panel summary { font-size: 18px; font-weight: 650; cursor: pointer; }
+.personal-panel > .helper-text { display: block; margin: 0 0 20px; line-height: 1.7; }
+.personal-panel .compact-form { padding: 0; margin-top: 20px; }
+.personal-panel .field { min-width: 0; }
+.personal-panel input, .personal-panel select, .personal-panel textarea { width: 100%; min-width: 0; }
+.personal-panel fieldset { border: 1px solid #dce3e9; border-radius: 10px; padding: 18px; min-width: 0; }
+.personal-panel fieldset .field + .field { margin-top: 14px; }
+.personal-panel legend { padding: 0 6px; font-weight: 650; font-size: 13px; }
+.personal-panel select[multiple] { min-height: 92px; }
+.personal-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 14px; }
+.personal-record { padding: 17px 0; border-bottom: 1px solid #e7ecef; overflow-wrap: anywhere; }
+.personal-record:last-child { border-bottom: 0; }
+.personal-record h3 { font-size: 15px; margin: 0 0 8px; }
+.personal-record p { font-size: 13px; line-height: 1.65; color: #526272; margin: 6px 0; }
+.personal-record .secondary-button { margin-top: 8px; }
+.personal-total { font-size: 25px; font-weight: 700; margin: 15px 0; }
+.check-result { display: flex; gap: 12px; border-bottom: 1px solid #e7ecef; padding: 14px 0; font-size: 13px; line-height: 1.7; }
+.check-result strong { min-width: 65px; }
+.check-pass { color: #147665; }
+.check-fail { color: #bb3e43; }
+.check-unknown { color: #86620d; }
+@media (max-width: 1050px) { .personal-extended-grid { grid-template-columns: 1fr; } }
+@media (max-width: 600px) { .personal-panel { padding: 18px; } .personal-toolbar { align-items: stretch; } }

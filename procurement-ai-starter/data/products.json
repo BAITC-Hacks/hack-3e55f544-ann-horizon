@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Business Laptop Pro 14",
+    "category": "laptop",
+    "brand": "Aster",
+    "model": "Pro 14",
+    "sku": "AST-LTP-014",
+    "ram_gb": 32,
+    "ssd_gb": 1024,
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 2,
+    "name": "Business Laptop Air 15",
+    "category": "laptop",
+    "brand": "Aster",
+    "model": "Air 15",
+    "sku": "AST-LTA-015",
+    "ram_gb": 16,
+    "ssd_gb": 1024,
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 3,
+    "name": "Engineering Laptop X",
+    "category": "laptop",
+    "brand": "Forge",
+    "model": "Engineering X",
+    "sku": "FRG-ENG-X",
+    "ram_gb": 64,
+    "ssd_gb": 2048,
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 4,
+    "name": "SSD NVMe 1TB",
+    "category": "ssd",
+    "brand": "NovaStor",
+    "model": "NS-NV1",
+    "sku": "NST-SSD-1T-NV",
+    "capacity_gb": 1024,
+    "interface": "NVMe",
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 5,
+    "name": "SSD NVMe 2TB",
+    "category": "ssd",
+    "brand": "NovaStor",
+    "model": "NS-NV2",
+    "sku": "NST-SSD-2T-NV",
+    "capacity_gb": 2048,
+    "interface": "NVMe",
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 6,
+    "name": "SSD SATA 512GB",
+    "category": "ssd",
+    "brand": "DataForge",
+    "model": "DF-S512",
+    "sku": "DF-SSD-512-S",
+    "capacity_gb": 512,
+    "interface": "SATA",
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 7,
+    "name": "Рабочий монитор ClearView 27",
+    "category": "monitor",
+    "brand": "ClearView",
+    "model": "CV27",
+    "sku": "CV-MON-027",
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 8,
+    "name": "Беспроводная клавиатура KeyWorks",
+    "category": "keyboard",
+    "brand": "KeyWorks",
+    "model": "KW100",
+    "sku": "KW-KEY-100",
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 9,
+    "name": "Беспроводная мышь ClickPoint",
+    "category": "mouse",
+    "brand": "ClickPoint",
+    "model": "CP50",
+    "sku": "CP-MSE-050",
+    "data_source": "DEMO DATA"
+  },
+  {
+    "id": 10,
+    "name": "Гарнитура для связи SoundWork",
+    "category": "headset",
+    "brand": "SoundWork",
+    "model": "SW20",
+    "sku": "SW-HDS-020",
+    "data_source": "DEMO DATA"
+  }
+]

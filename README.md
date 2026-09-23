@@ -6,3 +6,4 @@
 
 - [`wind_agent/`](wind_agent/) — Agentic AI для почасового прогноза выработки ВЭС на 24–48 часов с воспроизводимым запуском на Windows, Linux и macOS.
 - [`Torg/`](Torg/) — прототип AI-ассистента EKT.
+- [`procurement-ai-starter/`](procurement-ai-starter/) — локальная AI-платформа закупок и подбора event-подрядчиков; агенты OpenAI Agents SDK определяются программно в проекте.
