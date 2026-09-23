@@ -1,0 +1,11 @@
+.venv/
+.venv-test/
+.setup-tmp/
+.verification/
+__pycache__/
+*.py[cod]
+data/raw/*.csv
+data/cache/runs/*.json
+outputs/*
+!outputs/README.md
+VERIFICATION.md
